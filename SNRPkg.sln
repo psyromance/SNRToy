@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNRKit", "SNRKit.csproj", "{E619BBE4-4F49-FEBB-5FA9-465CC9294E7A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{EEE24799-E01A-71DF-5D0F-BDEB69A025A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{B5699005-D452-0614-B4AA-4D92B4622DBD}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E619BBE4-4F49-FEBB-5FA9-465CC9294E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E619BBE4-4F49-FEBB-5FA9-465CC9294E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E619BBE4-4F49-FEBB-5FA9-465CC9294E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E619BBE4-4F49-FEBB-5FA9-465CC9294E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EEE24799-E01A-71DF-5D0F-BDEB69A025A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EEE24799-E01A-71DF-5D0F-BDEB69A025A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE24799-E01A-71DF-5D0F-BDEB69A025A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
