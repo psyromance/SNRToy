@@ -349,6 +349,9 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
@@ -763,6 +766,9 @@
     <Reference Include="Unity.2D.Common.Path.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PackageManagerUI.Develop.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PackageManagerUI.Develop.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
       <HintPath>Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
     </Reference>
@@ -804,6 +810,12 @@
     </Reference>
     <Reference Include="Unity.2D.Aseprite.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Aseprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.asset-store-validation.Editor.Extension">
+      <HintPath>Library/ScriptAssemblies/Unity.asset-store-validation.Editor.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.asset-store-validation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.asset-store-validation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -847,17 +859,17 @@
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.UI.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
@@ -928,6 +940,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
-    <ProjectReference Include="SNRKit.csproj" />
+    <ProjectReference Include="SNRDefine.csproj" />
+    <ProjectReference Include="SNRExtension.csproj" />
   </ItemGroup>
 </Project>

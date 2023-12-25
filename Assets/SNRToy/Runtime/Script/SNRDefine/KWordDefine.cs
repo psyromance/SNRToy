@@ -1,4 +1,4 @@
-namespace SNRDefine
+namespace SNRKWordDefine
 {
     public static class KWord
     {
@@ -14,7 +14,6 @@ namespace SNRDefine
         public const string PackageVersion = "PackageVersion";
 
     }
-
 
 
 

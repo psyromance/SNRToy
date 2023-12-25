@@ -1,49 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "dependencies": {
-          "SNRKit": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Assembly-CSharp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Assembly-CSharp.dll": {}
-        }
-      },
-      "SNRKit/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "compile": {
-          "bin/placeholder/SNRKit.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SNRKit.dll": {}
-        }
-      }
-    }
+    ".NETStandard,Version=v2.1": {}
   },
-  "libraries": {
-    "Assembly-CSharp/1.0.0": {
-      "type": "project",
-      "path": "Assembly-CSharp.csproj",
-      "msbuildProject": "Assembly-CSharp.csproj"
-    },
-    "SNRKit/1.0.0": {
-      "type": "project",
-      "path": "SNRKit.csproj",
-      "msbuildProject": "SNRKit.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": [
-      "Assembly-CSharp >= 1.0.0",
-      "SNRKit >= 1.0.0"
-    ]
+    ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
     "/Users/young/.nuget/packages/": {}
@@ -51,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp-Editor.csproj",
-      "projectName": "Assembly-CSharp-Editor",
-      "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp-Editor.csproj",
+      "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj",
+      "projectName": "SNRDefine",
+      "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj",
       "packagesPath": "/Users/young/.nuget/packages/",
       "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
       "projectStyle": "PackageReference",
@@ -69,14 +31,7 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {
-            "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp.csproj": {
-              "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp.csproj"
-            },
-            "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRKit.csproj": {
-              "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRKit.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

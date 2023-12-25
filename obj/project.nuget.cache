@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FTsknm2Bg9JTrtDlQ6nA5flj7SkPgPnATNphPvYSvfhpUry+rMdLAxODOiKMvXU8Ulqoz2dsfaDj0wUkb5GmhA==",
+  "dgSpecHash": "0Mlk0D8w+et6mMHAQ2Jt9PJPcFJXlKisqLwgWSxd9zhTHWtZpxzwtPZM9/lJ3LOCWTVVwXjhRP5vAhsc0Esq6g==",
   "success": true,
-  "projectFilePath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp-Editor.csproj",
+  "projectFilePath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
