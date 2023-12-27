@@ -28,6 +28,15 @@
             "projectReferences": {
               "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp.csproj": {
                 "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp.csproj"
+              },
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/NewAssembly.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/NewAssembly.csproj"
+              },
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj"
+              },
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRExtension.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRExtension.csproj"
               }
             }
           }
@@ -62,6 +71,208 @@
         "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp.csproj",
         "projectName": "Assembly-CSharp",
         "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/Assembly-CSharp.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj"
+              },
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj"
+              },
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRExtension.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRExtension.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/NewAssembly.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/NewAssembly.csproj",
+        "projectName": "NewAssembly",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/NewAssembly.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj",
+        "projectName": "SNRComponent",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj",
+        "projectName": "SNRDefine",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRExtension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRExtension.csproj",
+        "projectName": "SNRExtension",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRExtension.csproj",
         "packagesPath": "/Users/young/.nuget/packages/",
         "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
         "projectStyle": "PackageReference",
