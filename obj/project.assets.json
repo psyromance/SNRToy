@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Animation.csproj",
-      "projectName": "UniFramework.Animation",
-      "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Animation.csproj",
+      "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj",
+      "projectName": "SNRComponent",
+      "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj",
       "packagesPath": "/Users/young/.nuget/packages/",
       "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
       "projectStyle": "PackageReference",

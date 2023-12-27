@@ -763,11 +763,17 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="YooAsset">
+      <HintPath>Library/ScriptAssemblies/YooAsset.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Path.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Develop.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.PackageManagerUI.Develop.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
       <HintPath>Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
@@ -916,6 +922,9 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="YooAsset.Editor">
+      <HintPath>Library/ScriptAssemblies/YooAsset.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.AdaptivePerformance.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
     </Reference>
@@ -934,6 +943,9 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
@@ -944,14 +956,17 @@
     <ProjectReference Include="UniFramework.Event.csproj" />
     <ProjectReference Include="UniFramework.Machine.csproj" />
     <ProjectReference Include="SNRDefine.csproj" />
+    <ProjectReference Include="DefEventDefine.csproj" />
     <ProjectReference Include="UniFramework.Singleton.csproj" />
     <ProjectReference Include="UniFramework.Tween.csproj" />
     <ProjectReference Include="SNRComponent.csproj" />
     <ProjectReference Include="UniFramework.Pooling.csproj" />
     <ProjectReference Include="UniFramework.Animation.csproj" />
+    <ProjectReference Include="YooAssetHelper.csproj" />
     <ProjectReference Include="UniFramework.Network.csproj" />
     <ProjectReference Include="UniFramework.Window.csproj" />
     <ProjectReference Include="UniFramework.Utility.csproj" />
     <ProjectReference Include="SNRExtension.csproj" />
+    <ProjectReference Include="SNRTool.csproj" />
   </ItemGroup>
 </Project>

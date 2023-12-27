@@ -2,6 +2,7 @@ namespace SNRKWordDefine
 {
     public static class KWord
     {
+        public const string Downloader = "Downloader";
         public const string CoroutineBehaviour = "CoroutineBehaviour";
         public const string PkgRawFile = "PkgRawFile";
         public const string PkgUnityObj = "PkgUnityObj";

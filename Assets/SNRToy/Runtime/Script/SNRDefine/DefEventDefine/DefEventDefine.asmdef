@@ -1,0 +1,16 @@
+{
+    "name": "DefEventDefine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f22fac247a56d2d41b687bb0d900e54e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

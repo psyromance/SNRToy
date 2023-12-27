@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRTool.csproj": {}
+  },
+  "projects": {
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj",
+        "projectName": "SNRDefine",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRTool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRTool.csproj",
+        "projectName": "SNRTool",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRTool.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRDefine.csproj"
+              },
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Event.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Event.csproj"
+              },
+              "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Machine.csproj": {
+                "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Machine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Event.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Event.csproj",
+        "projectName": "UniFramework.Event",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Event.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Machine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Machine.csproj",
+        "projectName": "UniFramework.Machine",
+        "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Machine.csproj",
+        "packagesPath": "/Users/young/.nuget/packages/",
+        "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/young/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
