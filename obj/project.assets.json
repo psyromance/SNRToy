@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Utility.csproj",
-      "projectName": "UniFramework.Utility",
-      "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Utility.csproj",
+      "projectUniqueName": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj",
+      "projectName": "SNRComponent",
+      "projectPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj",
       "packagesPath": "/Users/young/.nuget/packages/",
       "outputPath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/obj/",
       "projectStyle": "PackageReference",

@@ -906,6 +906,7 @@
     <ProjectReference Include="UniFramework.Animation.csproj" />
     <ProjectReference Include="YooAssetHelper.csproj" />
     <ProjectReference Include="UniFramework.Network.csproj" />
+    <ProjectReference Include="YooAssetEditorExt.csproj" />
     <ProjectReference Include="UniFramework.Window.csproj" />
     <ProjectReference Include="UniFramework.Utility.csproj" />
     <ProjectReference Include="SNRExtension.csproj" />

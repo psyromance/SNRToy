@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFramework.Window", "UniF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFramework.Machine", "UniFramework.Machine.csproj", "{F2608E46-FB2C-1478-AE6C-B4188E8F2A23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YooAssetEditorExt", "YooAssetEditorExt.csproj", "{4789D332-5F4E-DE2C-D144-9E6EDC27FC3C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YooAssetHelper", "YooAssetHelper.csproj", "{A4BBDFC0-1F0A-0BBA-6F0D-2BD6A9E5C961}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFramework.Singleton", "UniFramework.Singleton.csproj", "{5B2FA0F9-97A0-3C26-3636-06F6E22B37BE}"
@@ -79,6 +81,10 @@ Global
 		{F2608E46-FB2C-1478-AE6C-B4188E8F2A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2608E46-FB2C-1478-AE6C-B4188E8F2A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2608E46-FB2C-1478-AE6C-B4188E8F2A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4789D332-5F4E-DE2C-D144-9E6EDC27FC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4789D332-5F4E-DE2C-D144-9E6EDC27FC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4789D332-5F4E-DE2C-D144-9E6EDC27FC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4789D332-5F4E-DE2C-D144-9E6EDC27FC3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A4BBDFC0-1F0A-0BBA-6F0D-2BD6A9E5C961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A4BBDFC0-1F0A-0BBA-6F0D-2BD6A9E5C961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4BBDFC0-1F0A-0BBA-6F0D-2BD6A9E5C961}.Release|Any CPU.ActiveCfg = Release|Any CPU

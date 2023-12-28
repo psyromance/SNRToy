@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0BSp1rXbbJ4Vws5yXz+hYF7nyWWeHtNLVOVkAgFt5iDhJ4R/caooZkDfyDUj06YBxAMwUpYwKV9xyMT9GI8ztA==",
+  "dgSpecHash": "egqN1xn+dbe6fl4tOX9AH00zjADAMZ2ime4M+AHEw9nmdiutemPzW9Dnf3Q1yBp7zZ9oyRYJTZuPTDWLbBEbtw==",
   "success": true,
-  "projectFilePath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/UniFramework.Utility.csproj",
+  "projectFilePath": "/Users/young/Desktop/work/com/dir/SNRPkg/SNRPkg/SNRComponent.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
