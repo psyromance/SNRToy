@@ -55,10 +55,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/StreamingAssetsDefine.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/BuildinFileManifest.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/StreamingAssetsHelper2.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/StreamingAssetsHelper.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/Editor/YooAddressRuleExt.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/StreamingAssetsHelper/BuildinFileManifest.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/StreamingAssetsHelper/StreamingAssetsHelper.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/StreamingAssetsHelper/StreamingAssetsDefine.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/StreamingAssetsHelper/StreamingAssetsHelper2.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/YooAssetHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SNRToy/Runtime/Script/PackageHelper/YooAssetHelper/YooAssetHelper.asmdef" />
@@ -739,6 +741,9 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="YooAsset.Editor">
+      <HintPath>Library/ScriptAssemblies/YooAsset.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="YooAsset">
       <HintPath>Library/ScriptAssemblies/YooAsset.dll</HintPath>
     </Reference>
@@ -750,5 +755,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SNRDefine.csproj" />
   </ItemGroup>
 </Project>

@@ -934,8 +934,8 @@
     <Reference Include="Unity.Notifications.Android">
       <HintPath>Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
@@ -943,8 +943,8 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
@@ -967,6 +967,6 @@
     <ProjectReference Include="UniFramework.Window.csproj" />
     <ProjectReference Include="UniFramework.Utility.csproj" />
     <ProjectReference Include="SNRExtension.csproj" />
-    <ProjectReference Include="SNRTool.csproj" />
+    <ProjectReference Include="HotUpdate.csproj" />
   </ItemGroup>
 </Project>
