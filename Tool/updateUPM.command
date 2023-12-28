@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#使用时需copy一份来ignore不要加入当前git管理,否则会提示有改动无法合并
 # 获取脚本所在目录
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -23,7 +24,7 @@ fi
 if git show-ref --quiet --heads "$branch_name"; then
     echo "Branch $branch_name already exists. Merging..."
     # 合并到已存在的分支
-    git subtree merge --prefix="$prefix" "$branch_name"
+    git subtree merge --prefix="$prefix" --allow-unrelated-histories "$branch_name"
 else
     echo "Branch $branch_name does not exist. Creating..."
     # 创建新分支
