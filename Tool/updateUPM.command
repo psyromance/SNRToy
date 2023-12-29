@@ -1,4 +1,5 @@
 #!/bin/bash
+#使用时需单独复制该脚本的副本在当前目录且不把复制的加入git 进行使用,不然因为该脚本加入了git管理直接使用会造成git无法成功
 
 branch_name="upm"
 prefix="Assets/SNRToy"
