@@ -3,6 +3,12 @@
 branch_name="upm"
 prefix="Assets/SNRToy"
 
+# 获取当前脚本所在目录
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# 切换到仓库根目录
+cd "$script_dir"/../../..
+
 # 检查目标目录是否存在
 if [ ! -d "$prefix" ]; then
     echo "Directory $prefix does not exist. Creating..."
@@ -15,7 +21,7 @@ fi
 # 检查分支是否存在
 if git show-ref --quiet --heads "$branch_name"; then
     echo "Branch $branch_name already exists. Merging..."
-
+    
     # 在已存在的分支上执行 subtree merge
     git checkout "$branch_name"
     git checkout main -- "$prefix"
