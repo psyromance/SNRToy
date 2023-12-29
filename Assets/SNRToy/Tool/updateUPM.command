@@ -1,13 +1,5 @@
 #!/bin/bash
 
-#使用时需copy一份来ignore不要加入当前git管理,否则会提示有改动无法合并
-# 获取脚本所在目录
-script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-# 返回到SNRPkg的根目录
-cd "$script_dir/../../.."
-
-
 branch_name="upm"
 prefix="Assets/SNRToy"
 
@@ -23,8 +15,11 @@ fi
 # 检查分支是否存在
 if git show-ref --quiet --heads "$branch_name"; then
     echo "Branch $branch_name already exists. Merging..."
-    # 合并到已存在的分支
-    git subtree merge --prefix="$prefix" --allow-unrelated-histories "$branch_name"
+
+    # 在已存在的分支上执行 subtree merge
+    git checkout "$branch_name"
+    git checkout main -- "$prefix"
+    git commit -m "Sync changes from main to $branch_name"
 else
     echo "Branch $branch_name does not exist. Creating..."
     # 创建新分支
