@@ -55,22 +55,22 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/INetPackageDecoder.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/RingBuffer.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniLogger.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/DefaultNetPackageDecoder.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/DefaultNetPackageEncoder.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/TCP/TcpClient.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/INetPackageEncoder.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniNetwork.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/INetPackage.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniNetworkDriver.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/DefaultNetPackage.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/ThreadSyncContext.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/TCP/TcpChannel.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/DefaultNetPackage.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/INetPackageDecoder.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniNetworkDriver.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/DefaultNetPackageDecoder.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniNetwork.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/INetPackage.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/DefaultNetPackageEncoder.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/TCP/TcpClient.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/ThreadSyncContext.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/RingBuffer.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniLogger.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/TCP/TcpChannel.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/Package/INetPackageEncoder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniFramework.Network.asmdef" />
+    <None Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniNetwork/Runtime/UniFramework.Network.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

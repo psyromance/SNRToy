@@ -55,11 +55,11 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Runtime/Script/SNRDefine/KWordDefine.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/SNRDefine/EnumDefine.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/SNRDefine/KWordDefine.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/SNRDefine/EnumDefine.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Runtime/Script/SNRDefine/SNRDefine.asmdef" />
+    <None Include="Assets/SNRToy/Scripts/Runtime/SNRDefine/SNRDefine.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

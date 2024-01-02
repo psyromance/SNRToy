@@ -55,10 +55,10 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Runtime/Script/SNRComponent/Log/LogToScreen.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/SNRComponent/Log/LogToScreen.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Runtime/Script/SNRComponent/SNRComponent.asmdef" />
+    <None Include="Assets/SNRToy/Scripts/Runtime/SNRComponent/SNRComponent.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -55,16 +55,16 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/UniAnimation.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimState.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimMixer.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimClip.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimPlayable.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/UniLogger.cs" />
-    <Compile Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimNode.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimClip.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimMixer.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimPlayable.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/UniLogger.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimState.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/AnimNode.cs" />
+    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/UniAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Runtime/Script/ThirdPartyLib/UniFramework/UniAnimation/Runtime/UniFramework.Animation.asmdef" />
+    <None Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniAnimation/Runtime/UniFramework.Animation.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

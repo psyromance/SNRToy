@@ -811,11 +811,11 @@
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -894,22 +894,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="SNRHelper.csproj" />
-    <ProjectReference Include="UniFramework.Event.csproj" />
-    <ProjectReference Include="UniFramework.Machine.csproj" />
-    <ProjectReference Include="SNRDefine.csproj" />
-    <ProjectReference Include="DefEventDefine.csproj" />
-    <ProjectReference Include="UniFramework.Singleton.csproj" />
-    <ProjectReference Include="UniFramework.Tween.csproj" />
-    <ProjectReference Include="SNRComponent.csproj" />
-    <ProjectReference Include="UniFramework.Pooling.csproj" />
-    <ProjectReference Include="UniFramework.Animation.csproj" />
-    <ProjectReference Include="YooAssetEditorExt.csproj" />
-    <ProjectReference Include="YooAssetHelper.csproj" />
-    <ProjectReference Include="UniFramework.Network.csproj" />
-    <ProjectReference Include="UniFramework.Window.csproj" />
-    <ProjectReference Include="UniFramework.Utility.csproj" />
-    <ProjectReference Include="SNRExtension.csproj" />
     <ProjectReference Include="HotUpdate.csproj" />
+    <ProjectReference Include="SNRHelper.csproj" />
+    <ProjectReference Include="UniFramework.Singleton.csproj" />
+    <ProjectReference Include="DefEventDefine.csproj" />
+    <ProjectReference Include="SNRExtension.csproj" />
+    <ProjectReference Include="Unity.SNRToy.Editor.csproj" />
+    <ProjectReference Include="SNRDefine.csproj" />
+    <ProjectReference Include="UniFramework.Event.csproj" />
+    <ProjectReference Include="YooAssetHelper.csproj" />
+    <ProjectReference Include="UniFramework.Pooling.csproj" />
+    <ProjectReference Include="UniFramework.Network.csproj" />
+    <ProjectReference Include="UniFramework.Machine.csproj" />
+    <ProjectReference Include="UniFramework.Utility.csproj" />
+    <ProjectReference Include="UniFramework.Window.csproj" />
+    <ProjectReference Include="SNRComponent.csproj" />
+    <ProjectReference Include="UniFramework.Tween.csproj" />
+    <ProjectReference Include="UniFramework.Animation.csproj" />
   </ItemGroup>
 </Project>
