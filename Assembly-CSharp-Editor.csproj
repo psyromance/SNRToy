@@ -826,11 +826,11 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Notifications.Unified">
-      <HintPath>Library/ScriptAssemblies/Unity.Notifications.Unified.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Profiling.Core">
       <HintPath>Library/ScriptAssemblies/Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Unified">
+      <HintPath>Library/ScriptAssemblies/Unity.Notifications.Unified.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
@@ -931,14 +931,14 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Notifications.Android">
-      <HintPath>Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+      <HintPath>Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
@@ -953,21 +953,22 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
     <ProjectReference Include="HotUpdate.csproj" />
-    <ProjectReference Include="SNRHelper.csproj" />
-    <ProjectReference Include="UniFramework.Singleton.csproj" />
     <ProjectReference Include="DefEventDefine.csproj" />
-    <ProjectReference Include="SNRExtension.csproj" />
-    <ProjectReference Include="Unity.SNRToy.Editor.csproj" />
-    <ProjectReference Include="SNRDefine.csproj" />
-    <ProjectReference Include="UniFramework.Event.csproj" />
     <ProjectReference Include="YooAssetHelper.csproj" />
-    <ProjectReference Include="UniFramework.Pooling.csproj" />
-    <ProjectReference Include="UniFramework.Network.csproj" />
-    <ProjectReference Include="UniFramework.Machine.csproj" />
-    <ProjectReference Include="UniFramework.Utility.csproj" />
+    <ProjectReference Include="UniFramework.Singleton.csproj" />
     <ProjectReference Include="UniFramework.Window.csproj" />
-    <ProjectReference Include="SNRComponent.csproj" />
-    <ProjectReference Include="UniFramework.Tween.csproj" />
+    <ProjectReference Include="SNRDefine.csproj" />
     <ProjectReference Include="UniFramework.Animation.csproj" />
+    <ProjectReference Include="UniFramework.Utility.csproj" />
+    <ProjectReference Include="SNRToy.Editor.csproj" />
+    <ProjectReference Include="UniFramework.Tween.csproj" />
+    <ProjectReference Include="UniFramework.Network.csproj" />
+    <ProjectReference Include="UniFramework.Event.csproj" />
+    <ProjectReference Include="SNRComponent.csproj" />
+    <ProjectReference Include="UniFramework.Machine.csproj" />
+    <ProjectReference Include="SNRToy.csproj" />
+    <ProjectReference Include="UniFramework.Pooling.csproj" />
+    <ProjectReference Include="SNRExtension.csproj" />
+    <ProjectReference Include="SNRHelper.csproj" />
   </ItemGroup>
 </Project>
