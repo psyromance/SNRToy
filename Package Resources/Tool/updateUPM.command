@@ -8,7 +8,7 @@ prefix="Assets/SNRToy"
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # 切换到仓库根目录
-cd "$script_dir"/../../..
+cd "$script_dir"/../../../..
 
 # 检查目标目录是否存在
 if [ ! -d "$prefix" ]; then
