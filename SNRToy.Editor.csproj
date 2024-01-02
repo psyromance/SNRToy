@@ -55,10 +55,10 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Scripts/Editor/YooAssetHelper/YooAddressRuleExt.cs" />
+    <Compile Include="Assets/SNRToy/Editor/YooAssetHelper/YooAddressRuleExt.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Scripts/Editor/SNRToy.Editor.asmdef" />
+    <None Include="Assets/SNRToy/Editor/SNRToy.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

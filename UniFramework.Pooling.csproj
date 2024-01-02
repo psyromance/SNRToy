@@ -55,16 +55,16 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniPoolingDriver.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/GameObjectPool.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/Spawner.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/CreatePoolOperation.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniPooling.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/SpawnHandle.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniLogger.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/Spawner.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/SpawnHandle.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/GameObjectPool.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/CreatePoolOperation.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniPooling.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniLogger.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniPoolingDriver.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniFramework.Pooling.asmdef" />
+    <None Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniPooling/Runtime/UniFramework.Pooling.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

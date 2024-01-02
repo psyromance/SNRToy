@@ -55,14 +55,14 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/BitMask32.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/StringFormat.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/UniTimer.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/BitMask64.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/StringConvert.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/BitMask32.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/BitMask64.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/UniTimer.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/StringConvert.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/StringFormat.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/UniFramework.Utility.asmdef" />
+    <None Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniUtility/Runtime/UniFramework.Utility.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -55,35 +55,35 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.12f1c1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenHandle.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_CanvasGroup_Tween_Extension.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenMath.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ValueNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenChain/TweenChainExtension.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ChainNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_RectTransform_Tween_Extension.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ParallelNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniLogger.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_GameObject_Tween_Extension.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenEase.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_UI_Image_Tween_Extension.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ETweenStatus.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniTweenDriver.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ETweenLoop.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/TimerNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/UntilNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ITweenChain.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniTween.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/SequenceNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ExecuteNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ITweenNode.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniTimer.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_UI_Text_Tween_Extension.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_Transform_Tween_Extension.cs" />
-    <Compile Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/SelectorNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniLogger.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniTweenDriver.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/UntilNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_Transform_Tween_Extension.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenChain/TweenChainExtension.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/SelectorNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ITweenNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ChainNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/TimerNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_UI_Image_Tween_Extension.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_UI_Text_Tween_Extension.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ETweenLoop.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ExecuteNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ParallelNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ETweenStatus.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniTween.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenMath.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_RectTransform_Tween_Extension.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniTimer.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_GameObject_Tween_Extension.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/SequenceNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenExtension/UnityEngine_CanvasGroup_Tween_Extension.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenHandle.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenNode/ValueNode.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/ITweenChain.cs" />
+    <Compile Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/TweenEase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/SNRToy/Scripts/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniFramework.Tween.asmdef" />
+    <None Include="Assets/SNRToy/Runtime/ThirdPartyLib/UniFramework/UniTween/Runtime/UniFramework.Tween.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
